@@ -1,0 +1,124 @@
+Function Group;;Function Class;;Function;;Data;Notes
+Name;Code;Name;Code;Name;Code;;
+Get;0x01;;;;;;[Read]  Get information, data reported back in response packet
+;;Identification;0x01;;;;[Reporting Module Identification]
+;;;;Device id;0x01;;Report device id
+;;;;Software;0x02;;Report software version
+;;;;Hardware;0x03;;Report hardware version
+;;;;Protocol;0x04;;Report protocol version
+;;Radar info;0x03;;;;Radar related information
+;;;;Presence;0x05;;Report Presence
+;;;;Movement;0x06;;Report movement strength
+;;System Params;0x04;;;;System parameters
+;;;;Threshold;0x0C;;Report threshold setting (sensitivity ?)
+;;;;Scene;0x10;;Report scene setting
+;;Fall Params;0x05;;;;Fall Radar Related parameters
+;;;;Fall Function;0x0B;;Report fall state of fall function
+;;;;Fall Warning Time;0x0C;;Report fall warning time setting
+;;;;Fall Sensitivity;0x0E;;Report fall sensitivity setting
+;;;;;;;
+Function Group;;Function Class;;Function;;Data;Notes
+Name;Code;Name;Code;Name;Code;;
+Set;0x02;;;;;;Set parameters [Copy Order]  
+;;System Parameter;0x04;;;;System parameters
+;;;;Sensitivity;0x0C;0x01-0x0A;Set sensitivity [Threshold Gear]
+;;;;Scene;0x10;0x00-0x06;Set Scene
+;;;;;;0x00;Default
+;;;;;;0x01;Area Detection
+;;;;;;0x02;Bathroom
+;;;;;;0x03;Bedroom
+;;;;;;0x04;Living room
+;;;;;;0x05;Office
+;;;;;;0x06;Hotel
+;;Other Functions;0x05;;;;Other parameters
+;;;;Reboot;0x04;;Reboot module
+;;;;Upgrade Packet;0x09;4 Bytes 	;Upgrade packet
+;;;;;;1024 Bytes;Packet Data
+;;;;End Of Upgrade;0x0A;0x0F;Signal end of Upgrade
+;;;;Fall Function;0x0B;0x00 – 0x01;Turn Fall function on / off
+;;;;;;0x00;Off
+;;;;;;0x01;On
+;;;;Fall Warning Time;0x0C;0x00 - 0x06;Set timing of fall warning
+;;;;;;0x00;1 Minute
+;;;;;;0x01;2 Minutes
+;;;;;;0x02;3 Minutes
+;;;;;;0x03;4 Minutes
+;;;;;;0x04;5 Minutes
+;;;;;;0x05;6 Minutes
+;;;;;;0x06;7 Minutes
+;;;;;;0x07;10 min
+;;;;;;0x08;15 min
+;;;;;;0x09;30 min
+;;;;Fall Sensitivity;0x0E;0x01 - 0xA;Default 0x04 , Higher ? more sensitive
+;;;;;;;
+Function Group;;Function Class;;Function;;Data;Notes
+Name;Code;Name;Code;Name;Code;;
+Response;0x03;;;;;;[Passive reporting]   Responses to Get and Set
+;;Identification;0x01;;;;
+;;;;Device ID;0x01;12 Bytes; Device Identification (ASCII ?)
+;;;;Software Version;0x02;10 Bytes;Software Version (ASCII ?)
+;;;;Hardware Version;0x03;8 Bytes;Hardware Version (ASCII ?)
+;;;;Protocol Version;0x04;8 Bytes;Protocol Version (Binary ?)
+;;Radar info;0x03;;;;Radar related responses
+;;;;Presence;0x05;3 Bytes;[Enviroment]
+;;;;;;00 FF FF;Unoccupied
+;;;;;;01 00 FF;Stationary
+;;;;;;01 01 01;Movement
+;;;;Movement Intensity;0x06;4 Byte Float;[Signs Parameters]
+;;System Info;0x04;;;;System related responses
+;;;;Sensitivity;0x0C;0x01-0x0A;Current Sensitivity Setting (0x7 Default at startup)
+;;;;Scene Setting;0x10;0x01-0x05;Current Scene Setting (0x00 Default at startup)
+;;Other Info;0x05;;;;Other Responses
+;;;;Upgrade ACK;0x08;;ACK/NACK response on Upgrade Start
+;;;;;;0x00;Fail
+;;;;;;0x01;Success
+;;;;Feedback OTA;0x09;0x0F;ACK respons after each packet received
+;;;;Fall Function Switch;0x0B;;Fall Function enabled state
+;;;;;;0x00;Off – Fall function turned off
+;;;;;;0x01;On – Fall Function enabled (Default at startup)
+;;;;Fall Warning Time;0x0C;0x00 - 0x06;Current setting of fall warning time
+;;;;;;0x00;1 Minute
+;;;;;;0x01;2 Minutes
+;;;;;;0x02;3 Minutes
+;;;;;;0x03;4 Minutes
+;;;;;;0x04;5 Minutes
+;;;;;;0x05;6 Minutes
+;;;;;;0x06;7 Minutes
+;;;;;;0x07;10 min
+;;;;;;0x08;15 min
+;;;;;;0x09;30 min
+;;;;Fall Sensitivity;0x0E;0x01 - 0x0a;Current setting of fall sensitivity (0x04 Default at startup_
+;;;;;;;
+Function Group;;Function Class;;Function;;Data;Notes
+Name;Code;Name;Code;Name;Code;;
+Reports;0x04;;;;;;Periodic Reports [Proactive Reports]
+;;Identification;0x01;;;;
+;;;;Software Version;0x02;;Software upgrade complete reported after successful upgrade
+;;Radar;0x03;;;;
+;;;;Presence;0x05;3 Bytes;Presence detection [Environment]
+;;;;;;00 FF FF;None [Unoccupied]
+;;;;;;01 00 FF;Presence [Someone is stationary]
+;;;;;;01 01 01;Movement [Some people exercise]
+;;;;Movement Strength;0x06;4 bytes Float;[Signs Parameters]
+;;;;Location / Direction;0x07;3 Bytes;Location Direction of detected movement [Approaching Away]
+;;;;;;01 01 01;None
+;;;;;;01 01 02;Close [Close to]
+;;;;;;01 01 03;Away [Stay Away]
+;;;;;;01 01 04;Unknown but observed (Vigorous movement / transverse ?)
+;;;;;;01 01 05;Unknown but observed 
+;;Other Info;0x05;;;;
+;;;;Heartbeat;0x01;;Presence detection (Heartbeat / Breathing / Micro movments?)
+;;;;;;00 FF FF;Unoccupied
+;;;;;;01 00 FF;Stationary [Someone is stationary]
+;;;;;;01 01 01;Movement [Some people exercise]
+;;;;Abnormal Reset;0x02;0x0F;
+;;;;;;;
+Function Group;;Function Class;;Function;;Data;Notes
+Name;Code;Name;Code;Name;Code;;
+Fall;0x06;;;;;;Fall Radar reports
+;;Alarm;0x01;;;;
+;;;;Fall Alarm;0x01;;
+;;;;;;0x00;Suspected Fall
+;;;;;;0x01;Real Fall
+;;;;;;0x02;No Fall
+;;;;Fall Warning;0x02;0x00 - 0x04;Fall Warning count, 0 to 4
