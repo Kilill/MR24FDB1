@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="5cm" viewBox="66 11 415 95" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="66.8676" y="56.7068" width="28" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="94.8676" y="56.7068" width="16" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="110.868" y="56.7068" width="370" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="156.868" y="63.7068" width="16" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="172.868" y="63.7068" width="308" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="110.868" y="63.7068" width="46" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="70.7068" width="44" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="70.7068" width="192" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="172.868" y="70.7068" width="56" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="228.868" y="70.7068" width="16" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="77.7068" width="44" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="77.7068" width="192" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="84.7068" width="44" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="84.7068" width="192" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="91.7068" width="44" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="91.7068" width="192" height="7" rx="0" ry="0"/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="98.7068" width="44" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="98.7068" width="192" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="171.868" y="98.7068" width="57" height="7" rx="0" ry="0"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="228.868" y="98.7068" width="16" height="7" rx="0" ry="0"/>
+    </g>
+    <text font-size="11.2889" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="231.448" y="21.7008">
+      <tspan x="231.448" y="21.7008">Fall Reports</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="68.8676" y="61.7068">
+      <tspan x="68.8676" y="61.7068">Fall</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="96.8676" y="61.7068">
+      <tspan x="96.8676" y="61.7068">0x04</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="112.868" y="68.7068">
+      <tspan x="112.868" y="68.7068">Alarm</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="158.868" y="68.7068">
+      <tspan x="158.868" y="68.7068">0x01</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="174.868" y="75.7068">
+      <tspan x="174.868" y="75.7068">Fall Alarm</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="230.868" y="75.7068">
+      <tspan x="230.868" y="75.7068">0x01</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="173.868" y="103.707">
+      <tspan x="173.868" y="103.707">Fall Warning</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="230.868" y="103.707">
+      <tspan x="230.868" y="103.707">0x03</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="290.868" y="103.707">
+      <tspan x="290.868" y="103.707">Fall Warning count</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="290.868" y="82.7068">
+      <tspan x="290.868" y="82.7068">Suspected fall</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="290.868" y="89.7068">
+      <tspan x="290.868" y="89.7068">Real fall</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="290.868" y="96.7068">
+      <tspan x="290.868" y="96.7068">No Fall</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="252.868" y="75.7068">
+      <tspan x="252.868" y="75.7068">0x01 - 0x02</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="250.868" y="103.707">
+      <tspan x="250.868" y="103.707">0x00 - 0x04</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="290.868" y="75.7068">
+      <tspan x="290.868" y="75.7068">Fall alarm</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="261.868" y="82.7068">
+      <tspan x="261.868" y="82.7068">0x00</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="261.868" y="89.7068">
+      <tspan x="261.868" y="89.7068">0x01</tspan>
+    </text>
+    <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:normal" x="261.868" y="95.7068">
+      <tspan x="261.868" y="95.7068">0x02</tspan>
+    </text>
+    <g>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="244.868" y="44.7068" width="44" height="12" rx="0" ry="0"/>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="260.868" y="51.7068">
+        <tspan x="260.868" y="51.7068">Data</tspan>
+      </text>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="110.868" y="44.7068" width="62" height="12" rx="0" ry="0"/>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="124.868" y="54.7068">
+        <tspan x="124.868" y="54.7068">Name</tspan>
+      </text>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="158.868" y="54.7068">
+        <tspan x="158.868" y="54.7068">Code</tspan>
+      </text>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="134.368" y="50.7068">
+        <tspan x="134.368" y="50.7068">Group</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x1="156.868" y1="56.7068" x2="156.868" y2="53.3068"/>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="66.8676" y="44.7068" width="44" height="12" rx="0" ry="0"/>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="74.8676" y="54.7068">
+        <tspan x="74.8676" y="54.7068">Name</tspan>
+      </text>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="96.8676" y="54.7068">
+        <tspan x="96.8676" y="54.7068">Code</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x1="94.8676" y1="56.7068" x2="94.8676" y2="53.3068"/>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="81.3676" y="50.7068">
+        <tspan x="81.3676" y="50.7068">Class</tspan>
+      </text>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="172.868" y="44.7068" width="72" height="12" rx="0" ry="0"/>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="186.868" y="54.7068">
+        <tspan x="186.868" y="54.7068">Name</tspan>
+      </text>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="230.868" y="54.7068">
+        <tspan x="230.868" y="54.7068">Code</tspan>
+      </text>
+      <text font-size="5.08" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="197.368" y="50.7068">
+        <tspan x="197.368" y="50.7068">Function</tspan>
+      </text>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x1="228.868" y1="56.7068" x2="228.868" y2="53.3068"/>
+      <rect style="fill: #d8e5e5; fill-opacity: 1; stroke-opacity: 1; stroke-width: 0.6; stroke: #000000" x="288.868" y="44.7068" width="192" height="12" rx="0" ry="0"/>
+      <text font-size="4.51556" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:Cascadia Mono;font-style:normal;font-weight:700" x="352.868" y="51.7068">
+        <tspan x="352.868" y="51.7068">Description</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+<map id="MR24FDB1::addCrc16" name="MR24FDB1::addCrc16">
+<area shape="rect" id="node1" title="calculate and add crc16 at end of buffer " alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$classMR24FDB1.html#af7b82f23ec8f67c955ae413f4a078af0" title="calculate crc16 of current packet " alt="" coords="216,5,415,32"/>
+</map>

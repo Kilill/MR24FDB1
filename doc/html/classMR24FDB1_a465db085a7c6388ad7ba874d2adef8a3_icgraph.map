@@ -1,0 +1,10 @@
+<map id="MR24FDB1::sendSet" name="MR24FDB1::sendSet">
+<area shape="rect" id="node1" title="send a &quot;GET&quot; packet to the module " alt="" coords="5,157,160,184"/>
+<area shape="rect" id="node2" href="$classMR24FDB1.html#a23542b21cc78944a36d941eb4eaaf29d" title="reboot " alt="" coords="251,5,395,32"/>
+<area shape="rect" id="node3" href="$classMR24FDB1.html#a1546763c4f1cb5ffca8f9bebd1a01edd" title="enable / disable fall detection " alt="" coords="229,56,417,83"/>
+<area shape="rect" id="node4" href="$classMR24FDB1.html#a58a9040e025d0546198d2255fe06ac95" title="set fall detection sensitivity " alt="" coords="216,107,431,133"/>
+<area shape="rect" id="node5" href="$classMR24FDB1.html#a4b764eab220a44327e80f7a5a8dd93ed" title="set fall warn time parameter " alt="" coords="218,157,429,184"/>
+<area shape="rect" id="node6" href="$classMR24FDB1.html#a00c0a4485d6cc500242439acd036db97" title="set scene " alt="" coords="243,208,404,235"/>
+<area shape="rect" id="node7" href="$classMR24FDB1.html#aebffae5417dedbcc48b35e34b2d2ab13" title="set sensitivity " alt="" coords="228,259,419,285"/>
+<area shape="rect" id="node8" href="$classMR24FDB1.html#a2c1248a5844a078916d833e9a868fb75" title="set unoccupied timeut " alt="" coords="208,309,439,336"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="MR24FDB1::getDeviceId" name="MR24FDB1::getDeviceId">
+<area shape="rect" id="node1" title="requests Device Id " alt="" coords="5,107,185,133"/>
+<area shape="rect" id="node2" href="$classMR24FDB1.html#a7dfa1c269d0979718203f9202d4e8578" title="send a &quot;GET&quot; packet to the module and wait for responce " alt="" coords="233,107,444,133"/>
+<area shape="rect" id="node3" href="$classMR24FDB1.html#a4a5275f119bcbd82dd5a0d6a1d8defe5" title="send a &quot;GET&quot; packet to the module " alt="" coords="492,56,648,83"/>
+<area shape="rect" id="node7" href="$classMR24FDB1.html#a944e9bede6552294ea9940ae6fda3b96" title="wait until packet of the specified type is recieved " alt="" coords="495,132,645,159"/>
+<area shape="rect" id="node4" href="$classMR24FDB1.html#af148f4391ab1003e82d4497d8072aaa0" title="calculate and add crc16 at end of buffer " alt="" coords="740,56,903,83"/>
+<area shape="rect" id="node6" href="$classMR24FDB1.html#a586848e9efe86b47520f92e049c502eb" title="send a packet to the module " alt="" coords="733,5,909,32"/>
+<area shape="rect" id="node5" href="$classMR24FDB1.html#af7b82f23ec8f67c955ae413f4a078af0" title="calculate crc16 of current packet " alt="" coords="997,56,1196,83"/>
+<area shape="rect" id="node8" href="$classMR24FDB1.html#a8a6f5bebfe9e2f9232e58f0ff909042a" title="parse packet " alt="" coords="731,208,912,235"/>
+<area shape="rect" id="node13" href="$classMR24FDB1.html#a5e44c632274bde4a6e22f35d80a782f0" title="get a packet from the chip " alt="" coords="734,107,909,133"/>
+<area shape="rect" id="node15" href="$classMR24FDB1__Exception.html#a695552f5db7be7840c1af8650af0c235" title="decode error from the Result,class,group , function etc... " alt="" coords="696,157,947,184"/>
+<area shape="rect" id="node9" href="$classMR24FDB1.html#a2ccfe8221167944b882b5747b07dae22" title="parse fall type packet " alt="" coords="995,208,1199,235"/>
+<area shape="rect" id="node10" href="$classMR24FDB1.html#a1759ec9442c191ee6ddc09137a9c0528" title="parse report type packet " alt="" coords="1006,259,1187,285"/>
+<area shape="rect" id="node12" href="$classMR24FDB1.html#a55ecfd4dffd4d04c97dcd6e6e264ad61" title="parse reponce type packet " alt="" coords="996,157,1197,184"/>
+<area shape="rect" id="node11" href="$classMR24FDB1.html#ae444c38bb80decf58cabe5b12005b819" title="parse Radar group responces and reports " alt="" coords="1247,208,1433,235"/>
+<area shape="rect" id="node14" href="$classMR24FDB1.html#a3de11c024f9b20321cce5d98cd534c3e" title="get one byte from serial " alt="" coords="1016,107,1177,133"/>
+</map>

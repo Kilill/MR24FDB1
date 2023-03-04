@@ -1,0 +1,25 @@
+<map id="MR24FDB1::addCrc16" name="MR24FDB1::addCrc16">
+<area shape="rect" id="node1" title="calculate and add crc16 at end of buffer " alt="" coords="5,411,168,437"/>
+<area shape="rect" id="node2" href="$classMR24FDB1.html#a4a5275f119bcbd82dd5a0d6a1d8defe5" title="send a &quot;GET&quot; packet to the module " alt="" coords="216,323,372,349"/>
+<area shape="rect" id="node16" href="$classMR24FDB1.html#a465db085a7c6388ad7ba874d2adef8a3" title="send a &quot;GET&quot; packet to the module " alt="" coords="217,436,371,463"/>
+<area shape="rect" id="node3" href="$classMR24FDB1.html#a7dfa1c269d0979718203f9202d4e8578" title="send a &quot;GET&quot; packet to the module and wait for responce " alt="" coords="430,259,641,285"/>
+<area shape="rect" id="node4" href="$classMR24FDB1.html#a6a61bdca02e1a9ab2c6ab83c3ee2ff21" title="requests Device Id " alt="" coords="716,5,896,32"/>
+<area shape="rect" id="node5" href="$classMR24FDB1.html#a10ef6d7b6a0d7819b84361c907604fe0" title="get status of fall enable switch " alt="" coords="711,56,901,83"/>
+<area shape="rect" id="node6" href="$classMR24FDB1.html#a122352e437a57083aba3823b512e2c31" title="get status of fall sensitivty setting " alt="" coords="699,107,913,133"/>
+<area shape="rect" id="node7" href="$classMR24FDB1.html#a6e729c642bc4f67e6ce076fb0fa2aa3e" title="get status of fall warning time setting " alt="" coords="700,157,912,184"/>
+<area shape="rect" id="node8" href="$classMR24FDB1.html#a9c858e6eae2bf95de4340b7bb4fe07e7" title="requests Hardware version " alt="" coords="702,208,910,235"/>
+<area shape="rect" id="node9" href="$classMR24FDB1.html#ab090aa5731fa4e348a33588f682f1a16" title="get movement " alt="" coords="709,259,903,285"/>
+<area shape="rect" id="node11" href="$classMR24FDB1.html#af5bcb06d3788fb4743e2f750a6e4a149" title="get presence from module " alt="" coords="715,309,897,336"/>
+<area shape="rect" id="node12" href="$classMR24FDB1.html#a206d007330f0b2f9c76b070e215dbb05" title="request Protocol Version " alt="" coords="707,360,905,387"/>
+<area shape="rect" id="node13" href="$classMR24FDB1.html#adc620372e2ccd4d3dece13bfe8c8424e" title="get scene parameter " alt="" coords="725,411,887,437"/>
+<area shape="rect" id="node14" href="$classMR24FDB1.html#a82a44a7291dd7b96de57a2d2cda10251" title="get sensitivity parameter " alt="" coords="710,461,902,488"/>
+<area shape="rect" id="node15" href="$classMR24FDB1.html#af9b355c4127c5b937407b3e3b25217c7" title="requests Software verion " alt="" coords="705,512,907,539"/>
+<area shape="rect" id="node10" href="$classMR24FDB1.html#a0c0b8071f5d90b32f3c109ff71ff2ec0" title="send test " alt="" coords="961,284,1120,311"/>
+<area shape="rect" id="node17" href="$classMR24FDB1.html#a23542b21cc78944a36d941eb4eaaf29d" title="reboot " alt="" coords="463,309,607,336"/>
+<area shape="rect" id="node18" href="$classMR24FDB1.html#a1546763c4f1cb5ffca8f9bebd1a01edd" title="enable / disable fall detection " alt="" coords="441,360,629,387"/>
+<area shape="rect" id="node19" href="$classMR24FDB1.html#a58a9040e025d0546198d2255fe06ac95" title="set fall detection sensitivity " alt="" coords="428,411,643,437"/>
+<area shape="rect" id="node20" href="$classMR24FDB1.html#a4b764eab220a44327e80f7a5a8dd93ed" title="set fall warn time parameter " alt="" coords="430,461,641,488"/>
+<area shape="rect" id="node21" href="$classMR24FDB1.html#a00c0a4485d6cc500242439acd036db97" title="set scene " alt="" coords="455,512,616,539"/>
+<area shape="rect" id="node22" href="$classMR24FDB1.html#aebffae5417dedbcc48b35e34b2d2ab13" title="set sensitivity " alt="" coords="440,563,631,589"/>
+<area shape="rect" id="node23" href="$classMR24FDB1.html#a2c1248a5844a078916d833e9a868fb75" title="set unoccupied timeut " alt="" coords="420,613,651,640"/>
+</map>

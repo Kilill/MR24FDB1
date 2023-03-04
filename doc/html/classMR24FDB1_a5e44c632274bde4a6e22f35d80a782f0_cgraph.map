@@ -1,0 +1,5 @@
+<map id="MR24FDB1::readPacket" name="MR24FDB1::readPacket">
+<area shape="rect" id="node1" title="get a packet from the chip " alt="" coords="5,31,180,57"/>
+<area shape="rect" id="node2" href="$classMR24FDB1.html#af7b82f23ec8f67c955ae413f4a078af0" title="calculate crc16 of current packet " alt="" coords="228,5,427,32"/>
+<area shape="rect" id="node3" href="$classMR24FDB1.html#a3de11c024f9b20321cce5d98cd534c3e" title="get one byte from serial " alt="" coords="247,56,408,83"/>
+</map>
