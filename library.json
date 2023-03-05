@@ -13,8 +13,8 @@
 		} ],
 	"frameworks": [ "espidf","arduino" ],
 	"dependencies": {
-			"owner": "kilill".
-			"external-repo": "https://github.com/kill/debug.git",
+			"owner": "Kilill",
+			"external-repo": "git@github.com:Kilill/debug.git"
 		},
 	"build": {
 		"flags": [
