@@ -45,55 +45,50 @@
   <div class="clear-floats"></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__net_cyclops_opt_work_ArduinoLibs_mr24fdb1_lib_mr24fdb1_README"></a> First this is very much a work in progress, so absoloutly no guarantees..</p>
+<div class="textblock"><p><a class="anchor" id="md__opt_work_ArduinoLibs_mr24fdb1_README"></a> First this is very much a work in progress, so absoloutly no guarantees..</p>
 <p>The <a class="el" href="classMR24FDB1.html" title="MR24FDB1 class. ">MR24FDB1</a> is a 25Ghz presence detector radar by <a href="https://www.seeedstudio.com/24GHz-mmWave-Radar-Sensor-Fall-Detection-Module-p-5268.html">Seed Studio</a></p>
 <p>I found the lack of a proper driver frustrating and the suplied documentation equally confusing so in my way to try to undrstand how the module worked and what the documentation actually meant i embarked on this project.</p>
 <p>Underway i have renamed some (most) of the labels that Seed Studio has in their documentation to something that i could wrap my head around, this might or might not make it clearer how the API the module presents work. il try [bracket] the original names/definitions in the text.</p>
 <p>The MR23FDB1 class is able to read and decode the reports [Proactive reports] that the module continously sends out on its serial interface. It can also send out request for data [Read Command] the and parse the responces [Passive Reports].</p>
 <p>Currently written for ESP32/Arduino framwork using platformio.</p>
 <p>And yes i use "TAB's" instead of "SPACE" to indent. Thats what the character is for, and most modern editors are capable off setting the indent amount that a tab character indents.</p>
-<p>in the test directory is a platformio project directory that can be used as a starting point. copy the test directory to somewehere copy the this (<a class="el" href="classMR24FDB1.html" title="MR24FDB1 class. ">MR24FDB1</a>) directory into test/lib clone down the debug library (see below on dependencies) to test/lib as well in the test direcoty run platformio run build and it should build</p>
+<p>#Example</p>
+<p>In the example directory is a platformio project directory that can be used as a starting point. the <a class="el" href="file__main_8cpp.html">main.cpp</a> in src sets up the radar and continousle query it for precence, location, heartbet and movement</p>
 <h1>Known or rather uknown stuff</h1>
-<p>Not all report functions and data are documented in the documentation (or acording to me correctly named/documented):</p>
-<ol type="1">
-<li>Proactive report (0x04) / Radar Information (0x03) /Aproaching Away state (0x07) Should accoirding to the manual report 3 bytes where the 2 firs are allways 0x01 0x01 and the the third should be on of 0x1 [None], 0x02 [Close], 0x03 [Stay Away]. But i have seens bothe 0x04 and 0x05 reported. I have not yet figured out exactly when they are reported but it seems connected to "vigours" movment or perhaps transversal..</li>
+<p>Not all report functions and data are documented in the documentation (or acording to me correctly named/documented):</p><ol type="1">
+<li>there are 2 versions of the official manual (both available in the doc directory) in the first there are a some information missing but it does document the fall function (havent tested that yet) in the later the fall function documentation has been revmoved and some report documentations has been updated.</li>
 <li>Proactive report (0x04) / Other Information (0x03) / 0x09 (upgrade packet ? ) Vill once in a wile be reported , this is not documented as an report [Proactive report] function. It does exist as a Responce [Passive Report] but then in conjunction with ota upgrade</li>
+<li>sending a Set scene command should return a Scene respocnce but it doesent.</li>
 </ol>
 <h1>Dependencies</h1>
-<p>It uses my debug library: github.com:Kilill/debug.git this can be stripped out by removing any lines that as FAIL/ERROR/WARNING/INFO/DBG in them them...</p>
+<p>It uses my debug library: github.com:Kilill/debug.git the library.json file should pull that in when building with platformio this can be stripped out by removing any lines that as FAIL/ERROR/WARNING/INFO/DBG in them them...</p>
 <h1>Docs</h1>
-<p>The doc direcotry contains the modified documentation and class description</p>
-<p># File structure </p><div class="fragment"><div class="line">├── doc</div>
-<div class="line">│   ├── html                    doxypress generated Html files of documentation</div>
-<div class="line">│   ├── Module_API.csv          CSV dump of api doc</div>
-<div class="line">│   ├── Module_API.html         simple html export</div>
-<div class="line">│   ├── Module API.ods          Api documentation in Libre Office Calc</div>
-<div class="line">│   ├── Module API.pdf          PDF Export of same</div>
-<div class="line">│   └── pinout.png              Pinout of module</div>
-<div class="line">├── include</div>
-<div class="line">│   └── README</div>
-<div class="line">├── lib</div>
-<div class="line">│   ├── debug                   Debug printing routines</div>
-<div class="line">│   │   ├── dbgLevels.h         Debug level bit maps. Include before debug.h</div>
-<div class="line">│   │   ├── debug.cpp           Debug printing utilities</div>
-<div class="line">│   │   └── debug.h             Debug macro definitions</div>
-<div class="line">│   └── mr24fdb1                Driver directory</div>
-<div class="line">│       ├── decodeError.cpp     Decodes exceptions thrown</div>
-<div class="line">│       ├── library.json        Library description for platformio</div>
-<div class="line">│       ├── mr24fdb1.cpp        Driver class code</div>
-<div class="line">│       └── mr24fdb1.h          Driver class definition </div>
-<div class="line">├── platformio.ini              Platformio config file</div>
-<div class="line">├── README                      This file</div>
-<div class="line">├── src</div>
-<div class="line">│   ├── main.cpp                Example main file</div>
-<div class="line">│   └── README</div>
-<div class="line">└── test                        Tests</div>
-<div class="line">    └── README</div>
+<p>The doc direcotry contains the modified documentation and class description generated by doxypress it also contains libreOffice, pdf and Dia files that describes the protocol and documents the packet structure and api.</p>
+<p># File structure </p><div class="fragment"><div class="line">├── decodeError.cpp</div>
+<div class="line">├── doc</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── dia                     Dia files of the protocol and packets</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── doxypress.json          doxpress file for generating the docs</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── html                    generated html doc</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── Human_Presence_User_Manual_V1.7.pdf</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── Module_API.csv</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── Module_API.html</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── Module API.ods</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── Module API.pdf</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── MR24FDB1_User_manual_v1.0.pdf</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── pinout.png</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; ├── protocol.md</div>
+<div class="line">│&amp;nbsp;&amp;nbsp; └── Protocol.pdf</div>
+<div class="line">├── example                     example platformio project</div>
+<div class="line">├── library.json                platformio library manifest</div>
+<div class="line">├── LICENSE</div>
+<div class="line">├── mr24fdb1.cpp                driver source</div>
+<div class="line">├── mr24fdb1.h</div>
+<div class="line">└── README.md                   this file</div>
 </div><!-- end fragment -->
  </div></div><!-- contents -->
 <!-- Generated by DoxyPress 1.5.1 -->
 <hr class="footer"/><address class="footer"><small>
-Generated on søn. mar. 5 2023 14:02:28 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
+Generated on søn. mar. 5 2023 15:59:52 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
 <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.5.1
 </small></address>
 </body>

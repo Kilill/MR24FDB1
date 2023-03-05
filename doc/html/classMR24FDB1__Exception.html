@@ -61,10 +61,22 @@
 <p>Exception class.  
  <a href="classMR24FDB1__Exception.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">mr24fdb1.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a> ()</td></tr>
+<tr class="memdesc:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a61d273c6173dd0ae5b28c8715e2c46b0">More...</a><br /></td></tr>
+<tr class="separator:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7222d602fd86d3175670f94022933d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#ae7222d602fd86d3175670f94022933d5">MR24FDB1_Exception</a> (<a class="el" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint32_t cgfArg=0, uint32_t valArg=0)</td></tr>
+<tr class="memdesc:ae7222d602fd86d3175670f94022933d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">throw constructor packed values version  <a href="#ae7222d602fd86d3175670f94022933d5">More...</a><br /></td></tr>
+<tr class="separator:ae7222d602fd86d3175670f94022933d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a627af7738f4eb73eea3ce93c9cd00724"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a627af7738f4eb73eea3ce93c9cd00724">MR24FDB1_Exception</a> (<a class="el" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint8_t classArg, uint8_t groupArg, uint8_t funcArg, uint32_t valArg=0)</td></tr>
+<tr class="memdesc:a627af7738f4eb73eea3ce93c9cd00724"><td class="mdescLeft">&#160;</td><td class="mdescRight">throw constructor with discreete values  <a href="#a627af7738f4eb73eea3ce93c9cd00724">More...</a><br /></td></tr>
+<tr class="separator:a627af7738f4eb73eea3ce93c9cd00724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695552f5db7be7840c1af8650af0c235"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a695552f5db7be7840c1af8650af0c235">decodeError</a> ()</td></tr>
+<tr class="memdesc:a695552f5db7be7840c1af8650af0c235"><td class="mdescLeft">&#160;</td><td class="mdescRight">decode error from the <a class="el" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571" title="result of an operartion ">Result</a>,class,group , function etc...  <a href="#a695552f5db7be7840c1af8650af0c235">More...</a><br /></td></tr>
+<tr class="separator:a695552f5db7be7840c1af8650af0c235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a> ()</td></tr>
 <tr class="memdesc:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">default constructor  <a href="#a61d273c6173dd0ae5b28c8715e2c46b0">More...</a><br /></td></tr>
 <tr class="separator:a61d273c6173dd0ae5b28c8715e2c46b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,19 +118,42 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4acec8c5fd639bab99bec42ad820837f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83a1dac892dffc5331313c6bdaf0154c"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a83a1dac892dffc5331313c6bdaf0154c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09caa0fda2cf328a5ee50141324b6c2"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a26e49d45c1ed5e1877203e7178446468"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">CGF</a></td></tr>
+<tr class="memdesc:a26e49d45c1ed5e1877203e7178446468"><td class="mdescLeft">&#160;</td><td class="mdescRight">packed class/group/function  <a href="#a26e49d45c1ed5e1877203e7178446468">More...</a><br /></td></tr>
+<tr class="separator:a26e49d45c1ed5e1877203e7178446468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a9455dc9171f05cf273c8e0afa81a9"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a33d7e4c847e8ac557563cfda57153abc"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a></td></tr>
+<tr class="separator:a33d7e4c847e8ac557563cfda57153abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dfb5c92dba91fcbf5331b2b383479ab"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a></td></tr>
+<tr class="separator:a3dfb5c92dba91fcbf5331b2b383479ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0eeacc4d416821abcd29d7a7e5f7598"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a></td></tr>
+<tr class="separator:ab0eeacc4d416821abcd29d7a7e5f7598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a9455dc9171f05cf273c8e0afa81a9"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a77a9455dc9171f05cf273c8e0afa81a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09caa0fda2cf328a5ee50141324b6c2"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aa09caa0fda2cf328a5ee50141324b6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3e431803ab3a1b242bfa32c14f7183"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:a062abd2bc98e056d47b922ab55b73804"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a></td></tr>
+<tr class="memdesc:a062abd2bc98e056d47b922ab55b73804"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 data bytes  <a href="#a062abd2bc98e056d47b922ab55b73804">More...</a><br /></td></tr>
+<tr class="separator:a062abd2bc98e056d47b922ab55b73804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e31d7fb6976927d48426dbffb30824a"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">Valb</a> [4]</td></tr>
+<tr class="separator:a7e31d7fb6976927d48426dbffb30824a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b3e431803ab3a1b242bfa32c14f7183"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a3b3e431803ab3a1b242bfa32c14f7183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a3f66103e2984f273c04502772b4f1c41"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a3f66103e2984f273c04502772b4f1c41">ResStr</a> []</td></tr>
-<tr class="separator:a3f66103e2984f273c04502772b4f1c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a431ed77066e2490d4040600824b0c726"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a431ed77066e2490d4040600824b0c726">ErrStr</a> []</td></tr>
-<tr class="separator:a431ed77066e2490d4040600824b0c726"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f804df55eca9b74151080ed4fc5b8f"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#ae9f804df55eca9b74151080ed4fc5b8f">ResStr</a> []</td></tr>
+<tr class="separator:ae9f804df55eca9b74151080ed4fc5b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a8735fdd5eeb06dd7e933772d0acd44"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR24FDB1__Exception.html#a3a8735fdd5eeb06dd7e933772d0acd44">ErrStr</a> []</td></tr>
+<tr class="separator:a3a8735fdd5eeb06dd7e933772d0acd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Exception class. </p>
 <p>used for throwing exceptions </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01171">1171</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01171">1171</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a61d273c6173dd0ae5b28c8715e2c46b0"></a>
 <div class="memitem">
@@ -143,20 +178,18 @@ Static Public Attributes</h2></td></tr>
 
 <p>default constructor </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01201">1201</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">1201</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>() {</div>
 <div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">CGF</a>=0;</div>
 <div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=0;</div>
-<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024ab98a1567d48d7809833800316d83613b">MR24FDB1::Res_Ok</a>;</div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e">MR24FDB1::Res_Ok</a>;</div>
 <div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;    }</div>
-<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024ab98a1567d48d7809833800316d83613b"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024ab98a1567d48d7809833800316d83613b">MR24FDB1::Res_Ok</a></div><div class="ttdeci">@ Res_Ok</div><div class="ttdoc">All ok no errors. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00552">mr24fdb1.h:552</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01176">mr24fdb1.h:1176</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01189">mr24fdb1.h:1189</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01180">mr24fdb1.h:1180</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01201">mr24fdb1.h:1201</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e">MR24FDB1::Res_Ok</a></div><div class="ttdeci">@ Res_Ok</div><div class="ttdoc">All ok no errors. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00552">example/lib/mr24fdb1/mr24fdb1.h:552</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01180">example/lib/mr24fdb1/mr24fdb1.h:1180</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
 </div><!-- end fragment -->
-
-<p class="reference">References <a class="el" href="file__mr24fdb1_8h_source.html#l00552">MR24FDB1::Res_Ok</a>.</p>
 
 </div>
 </div>
@@ -209,17 +242,17 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01215">1215</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01215">1215</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>(<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint32_t cgfArg=0, uint32_t valArg=0) {</div>
 <div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=resultArg;</div>
 <div class="line"><a name="l01217"></a><span class="lineno"> 1217</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">CGF</a>=cgfArg;</div>
 <div class="line"><a name="l01218"></a><span class="lineno"> 1218</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=valArg;</div>
 <div class="line"><a name="l01219"></a><span class="lineno"> 1219</span>&#160;    }</div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01189">mr24fdb1.h:1189</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01180">mr24fdb1.h:1180</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01176">mr24fdb1.h:1176</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01201">mr24fdb1.h:1201</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01180">example/lib/mr24fdb1/mr24fdb1.h:1180</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
 </div><!-- end fragment -->
 
 </div>
@@ -287,7 +320,7 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01231">1231</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01231">1231</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>(<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint8_t classArg,uint8_t groupArg , uint8_t funcArg, uint32_t valArg=0) {</div>
 <div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=resultArg;</div>
 <div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>=classArg;</div>
@@ -295,13 +328,197 @@ Static Public Attributes</h2></td></tr>
 <div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>=funcArg;</div>
 <div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=valArg;</div>
 <div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;    }</div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01189">mr24fdb1.h:1189</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a608722d9cefc0b35b383916df477e3c3"><div class="ttname"><a href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">MR24FDB1_Exception::Func</a></div><div class="ttdeci">uint8_t Func</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01184">mr24fdb1.h:1184</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a2c86b71ca102ad446ef388b0e2700450"><div class="ttname"><a href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">MR24FDB1_Exception::FGroup</a></div><div class="ttdeci">uint8_t FGroup</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01183">mr24fdb1.h:1183</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5cdb36d7c9f1a1f48602f26fb9354d93"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">MR24FDB1_Exception::FClass</a></div><div class="ttdeci">uint8_t FClass</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01182">mr24fdb1.h:1182</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01176">mr24fdb1.h:1176</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01201">mr24fdb1.h:1201</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a608722d9cefc0b35b383916df477e3c3"><div class="ttname"><a href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">MR24FDB1_Exception::Func</a></div><div class="ttdeci">uint8_t Func</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01184">example/lib/mr24fdb1/mr24fdb1.h:1184</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a2c86b71ca102ad446ef388b0e2700450"><div class="ttname"><a href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">MR24FDB1_Exception::FGroup</a></div><div class="ttdeci">uint8_t FGroup</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01183">example/lib/mr24fdb1/mr24fdb1.h:1183</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5cdb36d7c9f1a1f48602f26fb9354d93"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">MR24FDB1_Exception::FClass</a></div><div class="ttdeci">uint8_t FClass</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01182">example/lib/mr24fdb1/mr24fdb1.h:1182</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
+</div><!-- end fragment -->
+
+</div>
+</div>
+<a class="anchor" id="a61d273c6173dd0ae5b28c8715e2c46b0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR24FDB1_Exception::MR24FDB1_Exception </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>default constructor </p>
+
+<p class="definition">Definition at line <a class="el" href="mr24fdb1_8h_source.html#l01201">1201</a> of file <a class="el" href="mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>() {</div>
+<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">CGF</a>=0;</div>
+<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=0;</div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e">MR24FDB1::Res_Ok</a>;</div>
+<div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;    }</div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a1bb6e341adec1eff789a8dfab3d9d88e">MR24FDB1::Res_Ok</a></div><div class="ttdeci">@ Res_Ok</div><div class="ttdoc">All ok no errors. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00552">example/lib/mr24fdb1/mr24fdb1.h:552</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01180">example/lib/mr24fdb1/mr24fdb1.h:1180</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
+</div><!-- end fragment -->
+
+</div>
+</div>
+<a class="anchor" id="ae7222d602fd86d3175670f94022933d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR24FDB1_Exception::MR24FDB1_Exception </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a>&#160;</td>
+          <td class="paramname"><em>resultArg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>cgfArg</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>valArg</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>throw constructor packed values version </p>
+<p>used in throw call with packed arguments</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resultArg</td><td>the result of the operation that failed </td></tr>
+    <tr><td class="paramname">cgfArg</td><td>packed Class,Group, Function </td></tr>
+    <tr><td class="paramname">valArg</td><td>packed 4 bytes of data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="mr24fdb1_8h_source.html#l01215">1215</a> of file <a class="el" href="mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>(<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint32_t cgfArg=0, uint32_t valArg=0) {</div>
+<div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=resultArg;</div>
+<div class="line"><a name="l01217"></a><span class="lineno"> 1217</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">CGF</a>=cgfArg;</div>
+<div class="line"><a name="l01218"></a><span class="lineno"> 1218</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=valArg;</div>
+<div class="line"><a name="l01219"></a><span class="lineno"> 1219</span>&#160;    }</div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_aafbb40693c9dd83698f7a45dbc6d6971"><div class="ttname"><a href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971">MR24FDB1_Exception::CGF</a></div><div class="ttdeci">uint32_t CGF</div><div class="ttdoc">packed class/group/function </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01180">example/lib/mr24fdb1/mr24fdb1.h:1180</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
+</div><!-- end fragment -->
+
+</div>
+</div>
+<a class="anchor" id="a627af7738f4eb73eea3ce93c9cd00724"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MR24FDB1_Exception::MR24FDB1_Exception </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a>&#160;</td>
+          <td class="paramname"><em>resultArg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>classArg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>groupArg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>funcArg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>valArg</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>throw constructor with discreete values </p>
+<p>Used in throw with discrete <a class="el" href="classMR24FDB1__Exception.html#aafbb40693c9dd83698f7a45dbc6d6971" title="packed class/group/function ">CGF</a> and Data values</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resultArg</td><td><a class="el" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571" title="result of an operartion ">Result</a> of failing operarion </td></tr>
+    <tr><td class="paramname">classArg</td><td>function class of fail </td></tr>
+    <tr><td class="paramname">groupArg</td><td>function group of fail </td></tr>
+    <tr><td class="paramname">funcArg</td><td>function of fail </td></tr>
+    <tr><td class="paramname">valArg</td><td>packed 4 bytes of data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="mr24fdb1_8h_source.html#l01231">1231</a> of file <a class="el" href="mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;    <a class="code" href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception</a>(<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a> resultArg, uint8_t classArg,uint8_t groupArg , uint8_t funcArg, uint32_t valArg=0) {</div>
+<div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>=resultArg;</div>
+<div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>=classArg;</div>
+<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a>=groupArg;</div>
+<div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>=funcArg;</div>
+<div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        <a class="code" href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">Val</a>=valArg;</div>
+<div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;    }</div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a965c1baa8e7fa73ae7982bf49a3e076e"><div class="ttname"><a href="classMR24FDB1__Exception.html#a965c1baa8e7fa73ae7982bf49a3e076e">MR24FDB1_Exception::Val</a></div><div class="ttdeci">uint32_t Val</div><div class="ttdoc">4 data bytes </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">example/lib/mr24fdb1/mr24fdb1.h:1189</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a608722d9cefc0b35b383916df477e3c3"><div class="ttname"><a href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">MR24FDB1_Exception::Func</a></div><div class="ttdeci">uint8_t Func</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01184">example/lib/mr24fdb1/mr24fdb1.h:1184</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a2c86b71ca102ad446ef388b0e2700450"><div class="ttname"><a href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">MR24FDB1_Exception::FGroup</a></div><div class="ttdeci">uint8_t FGroup</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01183">example/lib/mr24fdb1/mr24fdb1.h:1183</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5cdb36d7c9f1a1f48602f26fb9354d93"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">MR24FDB1_Exception::FClass</a></div><div class="ttdeci">uint8_t FClass</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01182">example/lib/mr24fdb1/mr24fdb1.h:1182</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024">MR24FDB1::Result_t</a></div><div class="ttdeci">Result_t</div><div class="ttdoc">General result codes. </div><div class="ttdef"><b>Definition:</b> <a href="mr24fdb1_8h_source.html#l00550">mr24fdb1.h:550</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a61d273c6173dd0ae5b28c8715e2c46b0"><div class="ttname"><a href="classMR24FDB1__Exception.html#a61d273c6173dd0ae5b28c8715e2c46b0">MR24FDB1_Exception::MR24FDB1_Exception</a></div><div class="ttdeci">MR24FDB1_Exception()</div><div class="ttdoc">default constructor </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01201">example/lib/mr24fdb1/mr24fdb1.h:1201</a></div></div>
 </div><!-- end fragment -->
 
 </div>
@@ -323,59 +540,77 @@ Static Public Attributes</h2></td></tr>
 <p>decode error from the <a class="el" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571" title="result of an operartion ">Result</a>,class,group , function etc... </p>
 <p>and print in clear text </p>
 
-<p class="definition">Definition at line <a class="el" href="file__decodeError_8cpp_source.html#l00085">85</a> of file <a class="el" href="file__decodeError_8cpp_source.html">decodeError.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="decodeError_8cpp_source.html#l00085">85</a> of file <a class="el" href="decodeError_8cpp_source.html">decodeError.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keywordtype">void</span> <a class="code" href="classMR24FDB1__Exception.html#a695552f5db7be7840c1af8650af0c235">MR24FDB1_Exception::decodeError</a>() {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">char</span> * sp;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    printf(<span class="stringliteral">&quot;Error decode:\n&quot;</span>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a> &lt;100 ) {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        printf(<span class="stringliteral">&quot;Cause (R).: %d =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>, <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a> &lt; strLen(<a class="code" href="classMR24FDB1__Exception.html#a3f66103e2984f273c04502772b4f1c41">ResStr</a>)</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            ? <a class="code" href="classMR24FDB1__Exception.html#a3f66103e2984f273c04502772b4f1c41">ResStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>]</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        printf(<span class="stringliteral">&quot;Cause (R).: %d =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>, <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a> &lt; strLen(<a class="code" href="classMR24FDB1__Exception.html#ae9f804df55eca9b74151080ed4fc5b8f">ResStr</a>)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            ? <a class="code" href="classMR24FDB1__Exception.html#ae9f804df55eca9b74151080ed4fc5b8f">ResStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>]</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            : <span class="stringliteral">&quot;Errcode out of bounds cant print error string, you need to update errDecode.c&quot;</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        );</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        printf(<span class="stringliteral">&quot;Cause (E).: %d =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>, <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>-<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a3fa7190b2fa04751e2b7037f7ed1ee3e">MR24FDB1::Res_Error</a> &lt; strLen(<a class="code" href="classMR24FDB1__Exception.html#a431ed77066e2490d4040600824b0c726">ErrStr</a>) <span class="comment">// Res_Error == 100</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            ? <a class="code" href="classMR24FDB1__Exception.html#a431ed77066e2490d4040600824b0c726">ErrStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>-<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a3fa7190b2fa04751e2b7037f7ed1ee3e">MR24FDB1::Res_Error</a>]</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        printf(<span class="stringliteral">&quot;Cause (E).: %d =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>, <a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>-<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a7eedef218dc613147b0f05a174c0bbb5">MR24FDB1::Res_Error</a> &lt; strLen(<a class="code" href="classMR24FDB1__Exception.html#a3a8735fdd5eeb06dd7e933772d0acd44">ErrStr</a>) <span class="comment">// Res_Error == 100</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            ? <a class="code" href="classMR24FDB1__Exception.html#a3a8735fdd5eeb06dd7e933772d0acd44">ErrStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">Result</a>-<a class="code" href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a7eedef218dc613147b0f05a174c0bbb5">MR24FDB1::Res_Error</a>]</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            : <span class="stringliteral">&quot;Errcode out of bounds cant print error string, you need to update errDecode.c&quot;</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        );</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            </div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    printf(<span class="stringliteral">&quot;Class ....: 0x%2.2x =&gt; %s \n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>, <a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a> &lt; <a class="code" href="classMR24FDB1.html#a21a17ab877f0e75d9f2877fdada7e46c">MR24FDB1::ClassStrCount</a></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        ? <a class="code" href="classMR24FDB1.html#af3d3fca19fa9069099060fa4480e2a33">MR24FDB1::ClassStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>]</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    printf(<span class="stringliteral">&quot;Class ....: 0x%2.2x =&gt; %s \n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>, <a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a> &lt; <a class="code" href="classMR24FDB1.html#add45e86c83455c045cea725fafafa7fb">MR24FDB1::ClassStrCount</a></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        ? <a class="code" href="classMR24FDB1.html#a089b9d7686da0de4097bb3afacd059e5">MR24FDB1::ClassStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">FClass</a>]</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        : <span class="stringliteral">&quot;func code out of bounds cant print code&quot;</span></div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    );</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    printf(<span class="stringliteral">&quot;Group ....: 0x%2.2x =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a>, <a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a> &lt; <a class="code" href="classMR24FDB1.html#a2aa6b0489c207b1836399f753c8e12fc">MR24FDB1::GroupStrCount</a></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        ? <a class="code" href="classMR24FDB1.html#ad0b3e84758e62983d2f30a3997562e4d">MR24FDB1::GroupStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a>]</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    printf(<span class="stringliteral">&quot;Group ....: 0x%2.2x =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a>, <a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a> &lt; <a class="code" href="classMR24FDB1.html#a87be63c60324a96d6ad88acf55675f5c">MR24FDB1::GroupStrCount</a></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        ? <a class="code" href="classMR24FDB1.html#a3ba386527dd46c138594c1519189a74c">MR24FDB1::GroupStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">FGroup</a>]</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        : <span class="stringliteral">&quot;class code out of bounds cant print class&quot;</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    );</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    printf(<span class="stringliteral">&quot;Func .....: 0x%2.2x =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>, <a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a> &lt; <a class="code" href="classMR24FDB1.html#aa25105afd837deafb4ac08d2eefb086a">MR24FDB1::FuncStrCount</a></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        ? <a class="code" href="classMR24FDB1.html#ad10b090ec8f2934c94de7f2f45248a68">MR24FDB1::FuncStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>]</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    printf(<span class="stringliteral">&quot;Func .....: 0x%2.2x =&gt; %s\n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>, <a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a> &lt; <a class="code" href="classMR24FDB1.html#ad99df582ac59552e2f4dd1dac53245a3">MR24FDB1::FuncStrCount</a></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        ? <a class="code" href="classMR24FDB1.html#a6095c9f5e325d34867ee7e940e0fbb28">MR24FDB1::FuncStr</a>[<a class="code" href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">Func</a>]</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        : <span class="stringliteral">&quot;func out of bounds cant print func&quot;</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    );</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    printf(<span class="stringliteral">&quot;Val ......: 0x%2.2x 0%2.2x 0%2.2x 0%2.2x \n&quot;</span>,<a class="code" href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">Valb</a>[0],<a class="code" href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">Valb</a>[1],<a class="code" href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">Valb</a>[2],<a class="code" href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">Valb</a>[3]);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a6709c520de7bd59a0d2c555a507c9453"><div class="ttname"><a href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">MR24FDB1_Exception::Valb</a></div><div class="ttdeci">uint8_t Valb[4]</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01190">mr24fdb1.h:1190</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_ad10b090ec8f2934c94de7f2f45248a68"><div class="ttname"><a href="classMR24FDB1.html#ad10b090ec8f2934c94de7f2f45248a68">MR24FDB1::FuncStr</a></div><div class="ttdeci">static const char * FuncStr[]</div><div class="ttdoc">Text representation of functions. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00334">mr24fdb1.h:334</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_aa25105afd837deafb4ac08d2eefb086a"><div class="ttname"><a href="classMR24FDB1.html#aa25105afd837deafb4ac08d2eefb086a">MR24FDB1::FuncStrCount</a></div><div class="ttdeci">static const int FuncStrCount</div><div class="ttdoc">Number of function strings. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00335">mr24fdb1.h:335</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a608722d9cefc0b35b383916df477e3c3"><div class="ttname"><a href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">MR24FDB1_Exception::Func</a></div><div class="ttdeci">uint8_t Func</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01184">mr24fdb1.h:1184</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_a2aa6b0489c207b1836399f753c8e12fc"><div class="ttname"><a href="classMR24FDB1.html#a2aa6b0489c207b1836399f753c8e12fc">MR24FDB1::GroupStrCount</a></div><div class="ttdeci">static const int GroupStrCount</div><div class="ttdoc">Number of function group strings. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00332">mr24fdb1.h:332</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a2c86b71ca102ad446ef388b0e2700450"><div class="ttname"><a href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">MR24FDB1_Exception::FGroup</a></div><div class="ttdeci">uint8_t FGroup</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01183">mr24fdb1.h:1183</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_af3d3fca19fa9069099060fa4480e2a33"><div class="ttname"><a href="classMR24FDB1.html#af3d3fca19fa9069099060fa4480e2a33">MR24FDB1::ClassStr</a></div><div class="ttdeci">static const char * ClassStr[]</div><div class="ttdoc">string representations of code/class/func/Scene etc </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00328">mr24fdb1.h:328</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_ad0b3e84758e62983d2f30a3997562e4d"><div class="ttname"><a href="classMR24FDB1.html#ad0b3e84758e62983d2f30a3997562e4d">MR24FDB1::GroupStr</a></div><div class="ttdeci">static const char * GroupStr[]</div><div class="ttdoc">Text representation of function groups. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00331">mr24fdb1.h:331</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_a21a17ab877f0e75d9f2877fdada7e46c"><div class="ttname"><a href="classMR24FDB1.html#a21a17ab877f0e75d9f2877fdada7e46c">MR24FDB1::ClassStrCount</a></div><div class="ttdeci">static const int ClassStrCount</div><div class="ttdoc">Number of function class strings. </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00329">mr24fdb1.h:329</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5cdb36d7c9f1a1f48602f26fb9354d93"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">MR24FDB1_Exception::FClass</a></div><div class="ttdeci">uint8_t FClass</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01182">mr24fdb1.h:1182</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a431ed77066e2490d4040600824b0c726"><div class="ttname"><a href="classMR24FDB1__Exception.html#a431ed77066e2490d4040600824b0c726">MR24FDB1_Exception::ErrStr</a></div><div class="ttdeci">static const char * ErrStr[]</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01196">mr24fdb1.h:1196</a></div></div>
-<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024a3fa7190b2fa04751e2b7037f7ed1ee3e"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a3fa7190b2fa04751e2b7037f7ed1ee3e">MR24FDB1::Res_Error</a></div><div class="ttdeci">@ Res_Error</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l00581">mr24fdb1.h:581</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a3f66103e2984f273c04502772b4f1c41"><div class="ttname"><a href="classMR24FDB1__Exception.html#a3f66103e2984f273c04502772b4f1c41">MR24FDB1_Exception::ResStr</a></div><div class="ttdeci">static const char * ResStr[]</div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01195">mr24fdb1.h:1195</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="file__mr24fdb1_8h_source.html#l01176">mr24fdb1.h:1176</a></div></div>
-<div class="ttc" id="aclassMR24FDB1__Exception_html_a695552f5db7be7840c1af8650af0c235"><div class="ttname"><a href="classMR24FDB1__Exception.html#a695552f5db7be7840c1af8650af0c235">MR24FDB1_Exception::decodeError</a></div><div class="ttdeci">void decodeError()</div><div class="ttdoc">decode error from the Result,class,group , function etc... </div><div class="ttdef"><b>Definition:</b> <a href="file__decodeError_8cpp_source.html#l00085">decodeError.cpp:85</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a6709c520de7bd59a0d2c555a507c9453"><div class="ttname"><a href="classMR24FDB1__Exception.html#a6709c520de7bd59a0d2c555a507c9453">MR24FDB1_Exception::Valb</a></div><div class="ttdeci">uint8_t Valb[4]</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01190">example/lib/mr24fdb1/mr24fdb1.h:1190</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a6095c9f5e325d34867ee7e940e0fbb28"><div class="ttname"><a href="classMR24FDB1.html#a6095c9f5e325d34867ee7e940e0fbb28">MR24FDB1::FuncStr</a></div><div class="ttdeci">static const char * FuncStr[]</div><div class="ttdoc">Text representation of functions. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00334">example/lib/mr24fdb1/mr24fdb1.h:334</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_ad99df582ac59552e2f4dd1dac53245a3"><div class="ttname"><a href="classMR24FDB1.html#ad99df582ac59552e2f4dd1dac53245a3">MR24FDB1::FuncStrCount</a></div><div class="ttdeci">static const int FuncStrCount</div><div class="ttdoc">Number of function strings. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00335">example/lib/mr24fdb1/mr24fdb1.h:335</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a608722d9cefc0b35b383916df477e3c3"><div class="ttname"><a href="classMR24FDB1__Exception.html#a608722d9cefc0b35b383916df477e3c3">MR24FDB1_Exception::Func</a></div><div class="ttdeci">uint8_t Func</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01184">example/lib/mr24fdb1/mr24fdb1.h:1184</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a3ba386527dd46c138594c1519189a74c"><div class="ttname"><a href="classMR24FDB1.html#a3ba386527dd46c138594c1519189a74c">MR24FDB1::GroupStr</a></div><div class="ttdeci">static const char * GroupStr[]</div><div class="ttdoc">Text representation of function groups. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00331">example/lib/mr24fdb1/mr24fdb1.h:331</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a87be63c60324a96d6ad88acf55675f5c"><div class="ttname"><a href="classMR24FDB1.html#a87be63c60324a96d6ad88acf55675f5c">MR24FDB1::GroupStrCount</a></div><div class="ttdeci">static const int GroupStrCount</div><div class="ttdoc">Number of function group strings. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00332">example/lib/mr24fdb1/mr24fdb1.h:332</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a2c86b71ca102ad446ef388b0e2700450"><div class="ttname"><a href="classMR24FDB1__Exception.html#a2c86b71ca102ad446ef388b0e2700450">MR24FDB1_Exception::FGroup</a></div><div class="ttdeci">uint8_t FGroup</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01183">example/lib/mr24fdb1/mr24fdb1.h:1183</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a089b9d7686da0de4097bb3afacd059e5"><div class="ttname"><a href="classMR24FDB1.html#a089b9d7686da0de4097bb3afacd059e5">MR24FDB1::ClassStr</a></div><div class="ttdeci">static const char * ClassStr[]</div><div class="ttdoc">string representations of code/class/func/Scene etc </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">example/lib/mr24fdb1/mr24fdb1.h:328</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_add45e86c83455c045cea725fafafa7fb"><div class="ttname"><a href="classMR24FDB1.html#add45e86c83455c045cea725fafafa7fb">MR24FDB1::ClassStrCount</a></div><div class="ttdeci">static const int ClassStrCount</div><div class="ttdoc">Number of function class strings. </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00329">example/lib/mr24fdb1/mr24fdb1.h:329</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5cdb36d7c9f1a1f48602f26fb9354d93"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5cdb36d7c9f1a1f48602f26fb9354d93">MR24FDB1_Exception::FClass</a></div><div class="ttdeci">uint8_t FClass</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01182">example/lib/mr24fdb1/mr24fdb1.h:1182</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a3a8735fdd5eeb06dd7e933772d0acd44"><div class="ttname"><a href="classMR24FDB1__Exception.html#a3a8735fdd5eeb06dd7e933772d0acd44">MR24FDB1_Exception::ErrStr</a></div><div class="ttdeci">static const char * ErrStr[]</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01196">example/lib/mr24fdb1/mr24fdb1.h:1196</a></div></div>
+<div class="ttc" id="aclassMR24FDB1_html_a27a5f9cd29e91e8a803a60aaa8e16024a7eedef218dc613147b0f05a174c0bbb5"><div class="ttname"><a href="classMR24FDB1.html#a27a5f9cd29e91e8a803a60aaa8e16024a7eedef218dc613147b0f05a174c0bbb5">MR24FDB1::Res_Error</a></div><div class="ttdeci">@ Res_Error</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00581">example/lib/mr24fdb1/mr24fdb1.h:581</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_ae9f804df55eca9b74151080ed4fc5b8f"><div class="ttname"><a href="classMR24FDB1__Exception.html#ae9f804df55eca9b74151080ed4fc5b8f">MR24FDB1_Exception::ResStr</a></div><div class="ttdeci">static const char * ResStr[]</div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01195">example/lib/mr24fdb1/mr24fdb1.h:1195</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a5ed255b52b240ca41e5cb19bc64ed571"><div class="ttname"><a href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571">MR24FDB1_Exception::Result</a></div><div class="ttdeci">MR24FDB1::Result_t Result</div><div class="ttdoc">result of an operartion </div><div class="ttdef"><b>Definition:</b> <a href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">example/lib/mr24fdb1/mr24fdb1.h:1176</a></div></div>
+<div class="ttc" id="aclassMR24FDB1__Exception_html_a695552f5db7be7840c1af8650af0c235"><div class="ttname"><a href="classMR24FDB1__Exception.html#a695552f5db7be7840c1af8650af0c235">MR24FDB1_Exception::decodeError</a></div><div class="ttdeci">void decodeError()</div><div class="ttdoc">decode error from the Result,class,group , function etc... </div><div class="ttdef"><b>Definition:</b> <a href="decodeError_8cpp_source.html#l00085">decodeError.cpp:85</a></div></div>
 </div><!-- end fragment -->
 
-<p class="reference">References <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="file__mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>.</p>
+<p class="reference">References <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00328">MR24FDB1::ClassStr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00320">MR24FDB1::waitFor()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a695552f5db7be7840c1af8650af0c235"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MR24FDB1_Exception::decodeError </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>decode error from the <a class="el" href="classMR24FDB1__Exception.html#a5ed255b52b240ca41e5cb19bc64ed571" title="result of an operartion ">Result</a>,class,group , function etc... </p>
+<p>and print in clear text </p>
 
 </div>
 </div>
@@ -392,9 +627,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>result of an operartion </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01176">1176</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01176">1176</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -410,7 +643,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>packed class/group/function </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01180">1180</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01180">1180</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -424,9 +657,9 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01182">1182</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01182">1182</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
 
 </div>
 </div>
@@ -440,9 +673,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01183">1183</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01183">1183</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -456,9 +687,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01184">1184</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01184">1184</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -486,7 +715,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>4 data bytes </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01189">1189</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01189">1189</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -500,9 +729,7 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01190">1190</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01190">1190</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -518,7 +745,7 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3f66103e2984f273c04502772b4f1c41"></a>
+<a class="anchor" id="ae9f804df55eca9b74151080ed4fc5b8f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -526,7 +753,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char * MR24FDB1_Exception::ResStr</td>
+          <td class="memname">static const char * MR24FDB1_Exception::ResStr</td>
         </tr>
       </table>
   </td>
@@ -565,13 +792,11 @@ Static Public Attributes</h2></td></tr>
 <div class="line">}</div>
 </div><!-- end fragment -->
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01195">1195</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00550">MR24FDB1::reboot()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00550">MR24FDB1::reboot()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00550">MR24FDB1::reboot()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00550">MR24FDB1::reboot()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01195">1195</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a431ed77066e2490d4040600824b0c726"></a>
+<a class="anchor" id="a3a8735fdd5eeb06dd7e933772d0acd44"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -579,7 +804,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char * MR24FDB1_Exception::ErrStr</td>
+          <td class="memname">static const char * MR24FDB1_Exception::ErrStr</td>
         </tr>
       </table>
   </td>
@@ -589,20 +814,44 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l01196">1196</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l01196">1196</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__decodeError_8cpp_source.html#l00085">decodeError()</a>.</p>
+</div>
+</div>
+<a class="anchor" id="aa09caa0fda2cf328a5ee50141324b6c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3b3e431803ab3a1b242bfa32c14f7183"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a></li>
-<li><a class="el" href="file__decodeError_8cpp_source.html">decodeError.cpp</a></li>
+<li><a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a></li>
+<li><a class="el" href="mr24fdb1_8h_source.html">mr24fdb1.h</a></li>
+<li><a class="el" href="decodeError_8cpp_source.html">decodeError.cpp</a></li>
+<li><a class="el" href="example_2lib_2mr24fdb1_2decodeError_8cpp_source.html">example/lib/mr24fdb1/decodeError.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- Generated by DoxyPress 1.5.1 -->
 <hr class="footer"/><address class="footer"><small>
-Generated on søn. mar. 5 2023 14:02:28 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
+Generated on søn. mar. 5 2023 15:59:52 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
 <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.5.1
 </small></address>
 </body>

@@ -1,6 +1,0 @@
-<map id="MR24FDB1::init" name="MR24FDB1::init">
-<area shape="rect" id="node1" title="initalize radar " alt="" coords="5,31,128,57"/>
-<area shape="rect" id="node2" href="$classMR24FDB1.html#a5e44c632274bde4a6e22f35d80a782f0" title="get a packet from the chip " alt="" coords="176,31,351,57"/>
-<area shape="rect" id="node3" href="$classMR24FDB1.html#af7b82f23ec8f67c955ae413f4a078af0" title="calculate crc16 of current packet " alt="" coords="399,5,597,32"/>
-<area shape="rect" id="node4" href="$classMR24FDB1.html#a3de11c024f9b20321cce5d98cd534c3e" title="get one byte from serial " alt="" coords="417,56,579,83"/>
-</map>

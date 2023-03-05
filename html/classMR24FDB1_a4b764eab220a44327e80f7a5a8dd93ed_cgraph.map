@@ -1,7 +1,0 @@
-<map id="MR24FDB1::setFallWarnTime" name="MR24FDB1::setFallWarnTime">
-<area shape="rect" id="node1" title="set fall warn time parameter " alt="" coords="5,31,216,57"/>
-<area shape="rect" id="node2" href="$classMR24FDB1.html#a465db085a7c6388ad7ba874d2adef8a3" title="send a &quot;GET&quot; packet to the module " alt="" coords="264,31,419,57"/>
-<area shape="rect" id="node3" href="$classMR24FDB1.html#af148f4391ab1003e82d4497d8072aaa0" title="calculate and add crc16 at end of buffer " alt="" coords="473,5,636,32"/>
-<area shape="rect" id="node5" href="$classMR24FDB1.html#a586848e9efe86b47520f92e049c502eb" title="send a packet to the module " alt="" coords="467,56,643,83"/>
-<area shape="rect" id="node4" href="$classMR24FDB1.html#af7b82f23ec8f67c955ae413f4a078af0" title="calculate crc16 of current packet " alt="" coords="691,5,889,32"/>
-</map>

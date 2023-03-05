@@ -63,7 +63,7 @@
 <p>packet struct / uinion  
  <a href="structMR24FDB1_1_1Packet__t.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">mr24fdb1.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -161,12 +161,91 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a729a44c366a32378cc99873e5278477e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab44dd7f99d1bf731abc22e5e0935f460"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:ab44dd7f99d1bf731abc22e5e0935f460"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe6491bffc203194af421babaf4716c"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:ab5312d4584ed59e078788a307acbc0e8"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a840d2e42e369d84e2265a428e2c53027">scene</a></td></tr>
+<tr class="memdesc:ab5312d4584ed59e078788a307acbc0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; data 1-n bytes data, convinience definitions  <a href="#ab5312d4584ed59e078788a307acbc0e8">More...</a><br /></td></tr>
+<tr class="separator:ab5312d4584ed59e078788a307acbc0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bb1db79a50d346025d2e6f3311d0c53"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a32fde1a0fc715e7d2d3a7e03d495b6cc">unoccupiedTime</a></td></tr>
+<tr class="memdesc:a5bb1db79a50d346025d2e6f3311d0c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unoccupied time.  <a href="#a5bb1db79a50d346025d2e6f3311d0c53">More...</a><br /></td></tr>
+<tr class="separator:a5bb1db79a50d346025d2e6f3311d0c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a9418300592e80a941132d340ebd38"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a9f9437882f549503b8067baaddeb913a">sensitivity</a></td></tr>
+<tr class="memdesc:ac1a9418300592e80a941132d340ebd38"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR24FDB1.html#abc8fe3880db26892970d115baa015926" title="senstitivity setting 0-0x0A ">Sensitivity</a> value.  <a href="#ac1a9418300592e80a941132d340ebd38">More...</a><br /></td></tr>
+<tr class="separator:ac1a9418300592e80a941132d340ebd38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab004f3ec30f3ec0429b0a9d1fb5efa5e"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a384bb8b2b2ceb6fc32bc334b170b5dec">fallEnable</a></td></tr>
+<tr class="memdesc:ab004f3ec30f3ec0429b0a9d1fb5efa5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">fall enable swithc valie  <a href="#ab004f3ec30f3ec0429b0a9d1fb5efa5e">More...</a><br /></td></tr>
+<tr class="separator:ab004f3ec30f3ec0429b0a9d1fb5efa5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58826a7c94b9d11ccfb0f7cce1f93cd8"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a99210898c8ff36901b379661f3b8f365">fallWarningTime</a></td></tr>
+<tr class="memdesc:a58826a7c94b9d11ccfb0f7cce1f93cd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">fall warning time  <a href="#a58826a7c94b9d11ccfb0f7cce1f93cd8">More...</a><br /></td></tr>
+<tr class="separator:a58826a7c94b9d11ccfb0f7cce1f93cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29cddd9790801f9a62564de3bd758eeb"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#adfa1dd3a1863609a8d8438d113b1dda7">fallSensitivity</a></td></tr>
+<tr class="memdesc:a29cddd9790801f9a62564de3bd758eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">fall sensittuvity setting  <a href="#a29cddd9790801f9a62564de3bd758eeb">More...</a><br /></td></tr>
+<tr class="separator:a29cddd9790801f9a62564de3bd758eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57a321c2ecee1c20f273910495bda99"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:aecb95d5251e2d67e94479313379aaee3"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#ab152276fd619faa2d101783af5fe7726">size</a></td></tr>
+<tr class="memdesc:aecb95d5251e2d67e94479313379aaee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; firmware 2 values  <a href="#aecb95d5251e2d67e94479313379aaee3">More...</a><br /></td></tr>
+<tr class="separator:aecb95d5251e2d67e94479313379aaee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c372227920abb9120b65e835248dce"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;uint16_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#ac9c6766cc89228cd54b16e492381919b">version</a></td></tr>
+<tr class="memdesc:a68c372227920abb9120b65e835248dce"><td class="mdescLeft">&#160;</td><td class="mdescRight">n bytes of version so version here  <a href="#a68c372227920abb9120b65e835248dce">More...</a><br /></td></tr>
+<tr class="separator:a68c372227920abb9120b65e835248dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af57a321c2ecee1c20f273910495bda99"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:af57a321c2ecee1c20f273910495bda99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c4e85cd13796f8e725f2e03306a895"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a1a5c3739876802466588d6ef4d28c96f">packetOffset</a></td></tr>
+<tr class="memdesc:a25c4e85cd13796f8e725f2e03306a895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Firmware.  <a href="#a25c4e85cd13796f8e725f2e03306a895">More...</a><br /></td></tr>
+<tr class="separator:a25c4e85cd13796f8e725f2e03306a895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b3be107bf0a67b31e00889256cc94f"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#ab8cc8d5a0d14d3f950e7e9ec650f9634">deviceID</a> [DEVICE_ID_LEN+1]</td></tr>
+<tr class="memdesc:af1b3be107bf0a67b31e00889256cc94f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Device id.  <a href="#af1b3be107bf0a67b31e00889256cc94f">More...</a><br /></td></tr>
+<tr class="separator:af1b3be107bf0a67b31e00889256cc94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5d0b420751f3df93f5cdb358f217e4c"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#ab5add11b3ef315c9291dbb96ba7f2c65">softwareVer</a> [SOFTWARE_VER_LEN+1]</td></tr>
+<tr class="memdesc:ab5d0b420751f3df93f5cdb358f217e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Software version.  <a href="#ab5d0b420751f3df93f5cdb358f217e4c">More...</a><br /></td></tr>
+<tr class="separator:ab5d0b420751f3df93f5cdb358f217e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeef9e74edccf6724880c20f4d4d4237"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#afc68aca551267804de7a02fa524d72f1">hardwareVer</a> [HARDWARE_VER_LEN+1]</td></tr>
+<tr class="memdesc:afeef9e74edccf6724880c20f4d4d4237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hardware version.  <a href="#afeef9e74edccf6724880c20f4d4d4237">More...</a><br /></td></tr>
+<tr class="separator:afeef9e74edccf6724880c20f4d4d4237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0914340f93f62084574920bda5b3619c"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a1a62d9a49fb9925ef07bbc4d41470ad4">protocolVer</a> [PROTOCOL_VER_LEN+1]</td></tr>
+<tr class="memdesc:a0914340f93f62084574920bda5b3619c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Protocol version.  <a href="#a0914340f93f62084574920bda5b3619c">More...</a><br /></td></tr>
+<tr class="separator:a0914340f93f62084574920bda5b3619c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309a4edf91e27cbe9e2c3d6315dedbe5"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a53ffb9b9deb62e7867f0ea30536cb08e">presence</a> [3]</td></tr>
+<tr class="memdesc:a309a4edf91e27cbe9e2c3d6315dedbe5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR24FDB1.html#a1b9099b7affc3969a6f76ce9d23143c7" title="last active report Envrioment Status ">Presence</a> patter.  <a href="#a309a4edf91e27cbe9e2c3d6315dedbe5">More...</a><br /></td></tr>
+<tr class="separator:a309a4edf91e27cbe9e2c3d6315dedbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0497a85138a645b8dc6b79efd83930e4"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a8cb31c1f4c3c90bfc19f574ebb7b083e">location</a> [3]</td></tr>
+<tr class="memdesc:a0497a85138a645b8dc6b79efd83930e4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMR24FDB1.html#a63164686d8e8de93f5c58b90d1ad2e33" title="location far, close none ">Location</a> pattern.  <a href="#a0497a85138a645b8dc6b79efd83930e4">More...</a><br /></td></tr>
+<tr class="separator:a0497a85138a645b8dc6b79efd83930e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81ea4537c4cc3fb8bfa149e343b03d2"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#aed9b61f76721aff4c53892329e337605">heartBeat</a> [3]</td></tr>
+<tr class="memdesc:af81ea4537c4cc3fb8bfa149e343b03d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Heartbear pattern.  <a href="#af81ea4537c4cc3fb8bfa149e343b03d2">More...</a><br /></td></tr>
+<tr class="separator:af81ea4537c4cc3fb8bfa149e343b03d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a056da3f2047a71df49ab8f8c6f97c1e9"><td class="memItemLeft" >&#160;&#160;&#160;float&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#ab16ba99f8f87f34409172056c6bd008e">movement</a></td></tr>
+<tr class="memdesc:a056da3f2047a71df49ab8f8c6f97c1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">movement  <a href="#a056da3f2047a71df49ab8f8c6f97c1e9">More...</a><br /></td></tr>
+<tr class="separator:a056da3f2047a71df49ab8f8c6f97c1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af82229d8ee15971e2841f741aabc04e5"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a64d0be874998871b6174114c76b54f10">upgradeStartAck</a></td></tr>
+<tr class="memdesc:af82229d8ee15971e2841f741aabc04e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">upgrade start ack  <a href="#af82229d8ee15971e2841f741aabc04e5">More...</a><br /></td></tr>
+<tr class="separator:af82229d8ee15971e2841f741aabc04e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18fc6236c2790ec869cce817da5b0e91"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#abda04a78ea2d86761a0405f1c2f91da5">upgradePacketAck</a></td></tr>
+<tr class="memdesc:a18fc6236c2790ec869cce817da5b0e91"><td class="mdescLeft">&#160;</td><td class="mdescRight">upgrade packet ack  <a href="#a18fc6236c2790ec869cce817da5b0e91">More...</a><br /></td></tr>
+<tr class="separator:a18fc6236c2790ec869cce817da5b0e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a1b40a3f597bea9bbc92e23966b4fc3"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a4d2bf19f818e7c8fcdaf473c77578aaf">abnReset</a></td></tr>
+<tr class="memdesc:a5a1b40a3f597bea9bbc92e23966b4fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">abnormal Reset flag  <a href="#a5a1b40a3f597bea9bbc92e23966b4fc3">More...</a><br /></td></tr>
+<tr class="separator:a5a1b40a3f597bea9bbc92e23966b4fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9385027b10e84d988155441d0093d3"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a74a5d3e40e2d8c9d383e22bb05dcf767">fallAlarm</a></td></tr>
+<tr class="memdesc:abc9385027b10e84d988155441d0093d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fall alarm value.  <a href="#abc9385027b10e84d988155441d0093d3">More...</a><br /></td></tr>
+<tr class="separator:abc9385027b10e84d988155441d0093d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a076aeb638c57c10a1f5a6cfe341cbdfc"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#aff3535def336ac713f72dd297c4e94e6">fallWarning</a></td></tr>
+<tr class="memdesc:a076aeb638c57c10a1f5a6cfe341cbdfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fall warning value.  <a href="#a076aeb638c57c10a1f5a6cfe341cbdfc">More...</a><br /></td></tr>
+<tr class="separator:a076aeb638c57c10a1f5a6cfe341cbdfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7010699f65d6949c5bb52f1c8f6f65"><td class="memItemLeft" >&#160;&#160;&#160;uint32_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a90cb3c5e0b5f4eea1a0c865cab04af17">lval</a></td></tr>
+<tr class="memdesc:a4b7010699f65d6949c5bb52f1c8f6f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">uint32_t conversion <br/>
+  <a href="#a4b7010699f65d6949c5bb52f1c8f6f65">More...</a><br /></td></tr>
+<tr class="separator:a4b7010699f65d6949c5bb52f1c8f6f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdeb1fc582646e457abfb1acff463bbf"><td class="memItemLeft" >&#160;&#160;&#160;uint8_t&#160;&#160;&#160;<a class="el" href="structMR24FDB1_1_1Packet__t.html#a425c6ecd1216e9ff114a69485e03ffa0">data</a> [MAXPACKET_DATA_LENGTH]</td></tr>
+<tr class="memdesc:acdeb1fc582646e457abfb1acff463bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">paddout  <a href="#acdeb1fc582646e457abfb1acff463bbf">More...</a><br /></td></tr>
+<tr class="separator:acdeb1fc582646e457abfb1acff463bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe6491bffc203194af421babaf4716c"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:aafe6491bffc203194af421babaf4716c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>packet struct / uinion </p>
 <p><a class="el" href="classMR24FDB1.html#af580d0b775194f1ea1776aeadbd6b3de" title="incoming packet from radar module ">Packet</a> structure, from after func the union is used for convinience and type conversions not included ere is the 2 byte crc at the end </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00283">283</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00283">283</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="acb6c5bda80467c4ce7bd4ad08b69300f"></a>
 <div class="memitem">
@@ -180,9 +259,7 @@ Public Attributes</h2></td></tr>
 
 <p>included in the struct since it's used in crc calculation </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00284">284</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00191">MR24FDB1::readPacket()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00284">284</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -198,9 +275,9 @@ Public Attributes</h2></td></tr>
 
 <p>Length of packet, does not count <a class="el" href="structMR24FDB1_1_1Packet__t.html#acb6c5bda80467c4ce7bd4ad08b69300f" title="included in the struct since it&#39;s used in crc calculation ">frameStart</a> byte. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00285">285</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00285">285</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l01119">MR24FDB1::calculateCrc16()</a>.</p>
 
 </div>
 </div>
@@ -216,9 +293,9 @@ Public Attributes</h2></td></tr>
 
 <p>Function Class. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00286">286</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00286">286</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00607">MR24FDB1::parsePacket()</a>.</p>
 
 </div>
 </div>
@@ -234,9 +311,9 @@ Public Attributes</h2></td></tr>
 
 <p>Function Group. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00287">287</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00287">287</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
 
 </div>
 </div>
@@ -252,9 +329,9 @@ Public Attributes</h2></td></tr>
 
 <p>Function. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00288">288</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00288">288</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>, <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
 
 </div>
 </div>
@@ -271,9 +348,9 @@ Public Attributes</h2></td></tr>
 <p>&lt; data 1-n bytes data, convinience definitions </p>
 <p>scene valu </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00291">291</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00291">291</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -289,9 +366,9 @@ Public Attributes</h2></td></tr>
 
 <p>Unoccupied time. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00292">292</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00292">292</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -307,9 +384,9 @@ Public Attributes</h2></td></tr>
 
 <p><a class="el" href="classMR24FDB1.html#abc8fe3880db26892970d115baa015926" title="senstitivity setting 0-0x0A ">Sensitivity</a> value. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00293">293</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00293">293</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -325,9 +402,9 @@ Public Attributes</h2></td></tr>
 
 <p>fall enable swithc valie </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00294">294</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00294">294</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -343,9 +420,9 @@ Public Attributes</h2></td></tr>
 
 <p>fall warning time </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00295">295</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00295">295</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -361,9 +438,9 @@ Public Attributes</h2></td></tr>
 
 <p>fall sensittuvity setting </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00296">296</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00296">296</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -380,7 +457,7 @@ Public Attributes</h2></td></tr>
 <p>&lt; firmware 2 values </p>
 <p>size of firmware </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00298">298</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00298">298</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +473,7 @@ Public Attributes</h2></td></tr>
 
 <p>n bytes of version so version here </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00299">299</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00299">299</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +489,7 @@ Public Attributes</h2></td></tr>
 
 <p>Firmware. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00301">301</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00301">301</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -428,9 +505,9 @@ Public Attributes</h2></td></tr>
 
 <p>Device id. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00302">302</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00302">302</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -446,9 +523,9 @@ Public Attributes</h2></td></tr>
 
 <p>Software version. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00303">303</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00303">303</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -464,9 +541,9 @@ Public Attributes</h2></td></tr>
 
 <p>Hardware version. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00304">304</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00304">304</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -482,9 +559,9 @@ Public Attributes</h2></td></tr>
 
 <p>Protocol version. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00305">305</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00305">305</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
 
 </div>
 </div>
@@ -500,9 +577,7 @@ Public Attributes</h2></td></tr>
 
 <p><a class="el" href="classMR24FDB1.html#a1b9099b7affc3969a6f76ce9d23143c7" title="last active report Envrioment Status ">Presence</a> patter. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00306">306</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00306">306</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -518,9 +593,7 @@ Public Attributes</h2></td></tr>
 
 <p><a class="el" href="classMR24FDB1.html#a63164686d8e8de93f5c58b90d1ad2e33" title="location far, close none ">Location</a> pattern. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00307">307</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00307">307</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -536,9 +609,7 @@ Public Attributes</h2></td></tr>
 
 <p>Heartbear pattern. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00308">308</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00783">MR24FDB1::parseReport()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00308">308</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -554,9 +625,7 @@ Public Attributes</h2></td></tr>
 
 <p>movement </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00309">309</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00309">309</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -572,9 +641,7 @@ Public Attributes</h2></td></tr>
 
 <p>upgrade start ack </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00310">310</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00635">MR24FDB1::parseResponce()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00310">310</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +657,7 @@ Public Attributes</h2></td></tr>
 
 <p>upgrade packet ack </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00311">311</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00311">311</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -606,9 +673,9 @@ Public Attributes</h2></td></tr>
 
 <p>abnormal Reset flag </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00312">312</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00312">312</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00783">MR24FDB1::parseReport()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8cpp_source.html#l00783">MR24FDB1::parseReport()</a>.</p>
 
 </div>
 </div>
@@ -624,9 +691,7 @@ Public Attributes</h2></td></tr>
 
 <p>Fall alarm value. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00313">313</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00882">MR24FDB1::parseFallReport()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00313">313</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -642,9 +707,7 @@ Public Attributes</h2></td></tr>
 
 <p>Fall warning value. </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00314">314</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00882">MR24FDB1::parseFallReport()</a>, <a class="el" href="file__mr24fdb1_8cpp_source.html#l00882">MR24FDB1::parseFallReport()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00314">314</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -661,9 +724,7 @@ Public Attributes</h2></td></tr>
 <p>uint32_t conversion <br/>
  </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00315">315</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="file__mr24fdb1_8cpp_source.html#l00965">MR24FDB1::decodeRadar()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00315">315</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -679,7 +740,7 @@ Public Attributes</h2></td></tr>
 
 <p>paddout </p>
 
-<p class="definition">Definition at line <a class="el" href="file__mr24fdb1_8h_source.html#l00316">316</a> of file <a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html#l00316">316</a> of file <a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a>.</p>
 
 </div>
 </div>
@@ -695,13 +756,26 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="file__mr24fdb1_8h_source.html">mr24fdb1.h</a></li>
+<a class="anchor" id="aafe6491bffc203194af421babaf4716c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... } </td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following files:<ul>
+<li><a class="el" href="example_2lib_2mr24fdb1_2mr24fdb1_8h_source.html">example/lib/mr24fdb1/mr24fdb1.h</a></li>
+<li><a class="el" href="mr24fdb1_8h_source.html">mr24fdb1.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- Generated by DoxyPress 1.5.1 -->
 <hr class="footer"/><address class="footer"><small>
-Generated on søn. mar. 5 2023 14:02:28 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
+Generated on søn. mar. 5 2023 15:59:52 for MR24FDB1 Driver &nbsp; by &#160;<a href="https://www.copperspice.com/documentation-doxypress.html">
 <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.5.1
 </small></address>
 </body>
