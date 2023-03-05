@@ -117,14 +117,10 @@ void setup()
 
 		INFO("main: setting scene to office\n");
 		radar.setScene(MR24FDB1::OFFICE_SC);
-		// this should respond with a scene responce but module bugged
-		// so just wait around for next packet
 		radar.waitFor(MR24FDB1::Res_Movement);
 		
 		INFO("setup: Disableing unoccupied timeout\n");
 		radar.setUnoccupiedTime(MR24FDB1::UT_NONE);
-		// respond with unoccupied time responce but we dont care
-		// so just wait around for next packet
 		radar.waitFor(MR24FDB1::Res_UnoccupiedTime_Rsp);
 
 	}
@@ -139,7 +135,8 @@ void setup()
 //	SET_DBG(DBG_12FV_L,ON,NOCLR);
 	SET_DBG(DBG_DEF_L,ON,CLR);
 	// Presence|Location|Heartbeat|Movement
-	printf("|             | P | L | H |  M  |\n");
+	printf("P = Presence\nL = Location/Direction\nH = Heartbeat\nM = Movement strength\n");
+	printf("count : time | P | L | H |  M  |\n");
 }
 
 void loop()
@@ -235,7 +232,7 @@ void loop()
 			digitalWrite(YELLOW_LED,LOW);
 		}
 	
-		printf("[%04.4d : %4.4d]| %c | %c | %c | %03.0f |\r", loopCount++,delta ,pch ,lch ,hch ,move);
+		printf("%05.5d : %5.5d| %c | %c | %c | %03.0f |\r", loopCount++,delta ,pch ,lch ,hch ,move);
 		fflush(stdout);
 	}
 	catch(MR24FDB1_Exception e) {
